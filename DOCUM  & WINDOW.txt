@@ -1,0 +1,10 @@
+                DOCUMENT & WINDOW OBJECTS      
+            
+ IFRAM actually is considered as a new window with its own document loaded 
+ Here is where it may seem a little odd, but does make sense if you think about.
+ The original, parent window, responsible for other windows to be loaded, not the document.
+
+
+ Frames[], which is an array of all the frames. 
+ If you only have one iframe you access it by using window.frames[0]. 
+ Since the iframe is also a window object, accessing window properties of that frame is done by using window.frames[0].
